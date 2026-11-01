@@ -46,7 +46,7 @@ GeoJSON with `id` and `name` properties, and pass `--fields`. Fields smaller tha
    - *Excess nitrogen*: full canopy (NDVI ≥ 0.8) **and** chlorophyll above look-alike neighbours (median NDRE z ≥ 1).
    - *Uneven field*: within-field vigour zones. Suggests variable-rate fertiliser instead of uniform spreading.
 
-## Limits — read before showing farmers
+## Limits
 
 - These are **screening indicators**, not measurements of water or fertiliser applied. Variety, sowing date,
   soil, salinity, intercropping and rain can all produce the same signals. Ground-truth before advising.
