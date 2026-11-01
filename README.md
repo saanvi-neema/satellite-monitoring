@@ -31,9 +31,6 @@ Copy `configs/baramati_demo.toml`, change `name`, `aoi` (lon/lat box) and the se
 For real farms, draw boundaries on [geojson.io](https://geojson.io) (or use cadastral / 7/12 maps), save as
 GeoJSON with `id` and `name` properties, and pass `--fields`. Fields smaller than ~0.1 ha (about 9 pixels) are skipped.
 
-**Use the Rabi season (Nov–Mar).** It has little rain and few clouds, so leaf moisture mostly reflects
-irrigation. Monsoon clouds hide most Kharif images, and rainfall makes the water signal meaningless.
-
 ## How it works
 
 1. **Imagery**: Sentinel-2 L2A bands B02–B05, B08, B8A, B11 + scene classification (cloud/shadow mask), warped to one
