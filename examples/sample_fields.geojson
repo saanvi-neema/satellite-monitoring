@@ -1,0 +1,11 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {"type": "Feature", "properties": {"id": "F001", "name": "Example field 1"},
+     "geometry": {"type": "Polygon", "coordinates": [[[74.5600,18.1683],[74.5614,18.1684],[74.5615,18.1693],[74.5601,18.1692],[74.5600,18.1683]]]}},
+    {"type": "Feature", "properties": {"id": "F002", "name": "Example field 2"},
+     "geometry": {"type": "Polygon", "coordinates": [[[74.5743,18.1302],[74.5757,18.1302],[74.5758,18.1314],[74.5744,18.1313],[74.5743,18.1302]]]}},
+    {"type": "Feature", "properties": {"id": "F003", "name": "Example field 3"},
+     "geometry": {"type": "Polygon", "coordinates": [[[74.5820,18.1450],[74.5832,18.1450],[74.5832,18.1460],[74.5820,18.1460],[74.5820,18.1450]]]}}
+  ]
+}

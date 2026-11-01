@@ -1,0 +1,7 @@
+matplotlib==3.11.2
+numpy==2.5.4
+planetary-computer==1.0.0
+pyproj==3.8.0
+pystac-client==0.9.1
+rasterio==1.5.2
+shapely==2.2.0

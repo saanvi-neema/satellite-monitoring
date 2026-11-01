@@ -1,0 +1,17 @@
+# Demo: irrigated farmland near Baramati, Pune district, Maharashtra — Rabi season 2025-26.
+name = "Baramati demo (Rabi 2025-26)"
+
+# Area of interest: [min_lon, min_lat, max_lon, max_lat]
+aoi = [74.55, 18.13, 74.60, 18.18]
+
+# Rabi (Nov–Mar) is the best season for this: little rain and few clouds, so field moisture
+# mostly reflects irrigation. Kharif (Jun–Oct) monsoon clouds block most optical images.
+season_start = "2025-11-01"
+season_end   = "2026-03-31"
+max_cloud    = 30          # % scene cloud cover to accept
+
+# Real farm boundaries (GeoJSON, EPSG:4326, optional "id" and "name" properties).
+# Leave empty to auto-divide cropland into square plots for a demo.
+fields = ""
+plot_size_m = 100          # demo plot size (100 m = 1 ha)
+max_reports = 25           # demo mode: per-plot pages for the top-N flagged plots
